@@ -1,0 +1,11 @@
+import PIL
+from PIL import Image
+import numpy
+
+image = Image.open('forest.png')
+# print(image)
+
+np_img = numpy.array(image)
+print(np_img)
+
+print(np_img.shape)
